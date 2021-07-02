@@ -877,7 +877,7 @@ background:linear-gradient(135deg, #bb131a 268px, transparent 0),
 .company-image2 img{
     width: 100%;
     max-width: 896px;
-    height: 454px;
+    height: 504px;
     }
 .bg-c{
     width: 100%;
@@ -1141,6 +1141,9 @@ footer{
       }
       .r-mt{
           margin-top: 60px;
+      }
+      .r-mb5{
+        margin-bottom: 50px;
       }
       .element-position{
         position: absolute;
