@@ -822,7 +822,8 @@
     padding: 20px 10px;
 }
 .news-image{
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     height: 200px;
 }
 .title-heading h1{
@@ -867,7 +868,7 @@ background:linear-gradient(135deg, #bb131a 268px, transparent 0),
 .greeting-box2 {
     background:linear-gradient(135deg, #bb131a 118px, transparent 0),
                 linear-gradient(-45deg, #bb131a 268px, transparent 0);
-    }
+}
 .company-image img{
     width: 100%;
     max-width: 896px;
@@ -1179,6 +1180,14 @@ footer{
     .voice-box3{
         bottom: 5%;
     }
+    .greeting-box{
+      background:linear-gradient(135deg, #bb131a 188px, transparent 0),
+                  linear-gradient(-45deg, #bb131a 118px, transparent 0);
+      }
+      .greeting-box2 {
+          background:linear-gradient(135deg, #bb131a 118px, transparent 0),
+                      linear-gradient(-45deg, #bb131a 188px, transparent 0);
+      }
 }
 
 @media screen and (max-width: 800px) {
